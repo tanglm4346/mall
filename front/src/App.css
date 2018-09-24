@@ -1,0 +1,13 @@
+
+.blank-row{
+    height: 32px;
+}
+
+
+.header{
+    height: 32px;
+    line-height: 32px;
+}
+.search-btn{
+    margin-top: 4px;
+}
