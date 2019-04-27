@@ -1,0 +1,51 @@
+import React from "react";
+import { Button, List } from "antd-mobile";
+import "./app.less";
+
+class App extends React.Component {
+  render() {
+    const boss = "李云龙";
+    return (
+      <div>
+        独立团，团长{boss}
+        <First boss="张大彪" />
+        <QiBinLian boss="孙德胜" />
+      </div>
+    );
+  }
+}
+
+class First extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      soldiers: ["虎子", "柱子", "王根生"]
+    };
+  }
+  addSoldier = () => {
+    this.setState({
+      soldiers: [...this.state.soldiers, "新兵蛋子" + Math.random()]
+    });
+  };
+  render() {
+    return (
+      <div className="first">
+        一营营长{this.props.boss}
+        <Button type="primary" onClick={this.addSoldier}>
+          新兵入伍
+        </Button>
+        <List renderHeader="士兵列表">
+          {this.state.soldiers.map(v => {
+            return <List.Item key={v}>{v}</List.Item>;
+          })}
+        </List>
+      </div>
+    );
+  }
+}
+
+const QiBinLian = props => {
+  return <div>骑兵连长{props.boss}</div>;
+};
+
+export default App;
