@@ -1,0 +1,10 @@
+.avatar-header {
+  display: flex;
+  flex-direction: row;
+  display: -webkit-flex;
+  align-items: center;
+}
+.avatar-header img {
+  width: 7%;
+  height: 60%;
+}

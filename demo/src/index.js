@@ -1,20 +1,23 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
-import App from "./App";
 import * as serviceWorker from "./serviceWorker";
 
 import { createStore, compose, applyMiddleware } from "redux";
 import { Provider } from "react-redux";
-import { counter } from "./app.reduce";
+import reduces from "./reducer";
 import thunk from "redux-thunk";
+import { BrowserRouter, Route, Redirect, Switch } from "react-router-dom";
+
+import Login from "./component/Login";
+import DashBoard from "./component/DashBoard";
 
 const reduxDevTools = window.devToolsExtension
   ? window.devToolsExtension
   : () => {};
 
 const store = createStore(
-  counter,
+  reduces,
   compose(
     applyMiddleware(thunk),
     reduxDevTools()
@@ -23,7 +26,13 @@ const store = createStore(
 
 ReactDOM.render(
   <Provider store={store}>
-    <App />
+    <BrowserRouter>
+      <Switch>
+        <Route path="/login" component={Login} />
+        <Route path="/dashBoard" component={DashBoard} />
+        <Redirect to="/dashBoard" />
+      </Switch>
+    </BrowserRouter>
   </Provider>,
   document.getElementById("root")
 );
