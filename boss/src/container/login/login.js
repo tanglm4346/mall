@@ -22,6 +22,7 @@ class Login extends Component {
       password: null
     };
   }
+  shouldComponentUpdate;
   handleChange = (key, value) => {
     this.setState({
       [key]: value

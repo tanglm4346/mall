@@ -1,0 +1,1 @@
+java -jar  D:\myCode\javaCode\mall\spring-could-demo\eureka\target\eureka.jar

@@ -18,6 +18,7 @@ class Msg extends Component {
       } else {
         msgGroup[you] = [item];
       }
+      return item
     });
     console.log("msgGroup", msgGroup);
     console.log("msgGroup", Object.values(msgGroup));
