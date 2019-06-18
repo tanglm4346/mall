@@ -18,3 +18,4 @@ mybatis:
 logging:
   level:
     com.tlm.could.product.mapper: debug
+girl: lily
