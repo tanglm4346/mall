@@ -1,0 +1,11 @@
+com\tlm\could\product\server\ProductServerApplication.class
+com\tlm\could\product\server\mapper\ProductInfoMapper.class
+com\tlm\could\product\server\service\CategoryService.class
+com\tlm\could\product\server\entity\ProductInfo.class
+com\tlm\could\product\server\utils\Result.class
+com\tlm\could\product\server\service\impl\ProductInfoServiceImpl.class
+com\tlm\could\product\server\controller\ProductController.class
+com\tlm\could\product\server\service\ProductInfoService.class
+com\tlm\could\product\server\entity\Category.class
+com\tlm\could\product\server\service\impl\CategoryServiceImpl.class
+com\tlm\could\product\server\mapper\CategoryMapper.class

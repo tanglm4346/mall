@@ -19,9 +19,9 @@ public class Order {
 
     private BigDecimal orderAmount;
 
-    private Byte orderStatus;
+    private Integer orderStatus;
 
-    private Byte payStatus;
+    private Integer payStatus;
 
     private LocalDateTime createTime;
 

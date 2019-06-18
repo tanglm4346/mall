@@ -65,6 +65,11 @@
             <version>27.0.1-jre</version>
             <scope>compile</scope>
         </dependency>
+        <dependency>
+            <groupId>com.tlm.could.product</groupId>
+            <artifactId>product-client</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
     </dependencies>
 
     <dependencyManagement>

@@ -1,0 +1,4 @@
+com\tlm\could\product\server\mapper\ProductInfoMapperTest.class
+com\tlm\could\product\server\server\ServerApplicationTests.class
+com\tlm\could\product\server\ProductApplicationTests.class
+com\tlm\could\product\server\mapper\CategoryMapperTest.class

@@ -5,60 +5,165 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3590e21d-1248-458a-9e32-74f305866d8c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_findbugs_annotations_3_0_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_findbugs_jsr305_3_0_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_errorprone_error_prone_annotations_2_2_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_failureaccess_1_0_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_27_0_1_jre.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_listenablefuture_9999_0_empty_to_avoid_conflict_with_guava.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_j2objc_j2objc_annotations_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_zaxxer_HikariCP_2_7_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_fileupload_commons_fileupload_1_3_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_feign_core_9_7_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_feign_hystrix_9_7_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_feign_java8_9_7_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_feign_slf4j_9_7_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_form_feign_form_3_3_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_form_feign_form_spring_3_3_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_jcip_jcip_annotations_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_checkerframework_checker_qual_2_5_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_mojo_animal_sniffer_annotations_1_17.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_5_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_spring_2_0_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_autoconfigure_2_0_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_starter_2_0_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_2_0_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_openfeign_core_2_0_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_openfeign_2_0_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_5_0_10_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_5_0_10_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/smartfox_info.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/src/main/java/com/tlm/could/order/bean/Beans.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/src/main/java/com/tlm/could/order/controller/OrderController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/src/main/java/com/tlm/could/order/feign/ProductClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/src/main/java/com/tlm/could/order/form/OrderDetailForm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/src/main/java/com/tlm/could/order/form/OrderForm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/src/main/java/com/tlm/could/order/service/OrderDetailService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/src/main/java/com/tlm/could/order/service/OrderService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/src/main/java/com/tlm/could/order/service/impl/OrderDetailServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/src/main/java/com/tlm/could/order/service/impl/OrderServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/src/main/java/com/tlm/could/order/utils/Result.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/product/src/main/java/com/tlm/could/product/controller/ProductController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/product/src/main/java/com/tlm/could/product/service/CategoryService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/product/src/main/java/com/tlm/could/product/service/ProductInfoService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/product/src/main/java/com/tlm/could/product/service/impl/CategoryServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/product/src/main/java/com/tlm/could/product/service/impl/ProductInfoServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/product/src/main/java/com/tlm/could/product/utils/Result.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/product/src/test/java/com/tlm/could/product/mapper/CategoryMapperTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/product/src/test/java/com/tlm/could/product/mapper/ProductInfoMapperTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../boss/src/container/chat/chat.js" beforeDir="false" afterPath="$PROJECT_DIR$/../boss/src/container/chat/chat.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../boss/src/container/login/login.js" beforeDir="false" afterPath="$PROJECT_DIR$/../boss/src/container/login/login.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../boss/src/container/msg/msg.js" beforeDir="false" afterPath="$PROJECT_DIR$/../boss/src/container/msg/msg.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_9_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_9_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_9_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_9_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_9_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_protobuf_protobuf_java_2_6_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_buffer_4_1_36_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_4_1_36_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_http2_4_1_36_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_http_4_1_36_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_socks_4_1_36_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_common_4_1_36_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_handler_4_1_36_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_handler_proxy_4_1_36_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_resolver_4_1_36_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_4_1_36_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_native_epoll_linux_x86_64_4_1_36_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_native_unix_common_4_1_36_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_projectreactor_addons_reactor_extra_3_2_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_projectreactor_netty_reactor_netty_0_8_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_projectreactor_reactor_core_3_2_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_projectreactor_reactor_test_3_2_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_9_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_9_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_11_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_11_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_assertj_assertj_core_3_11_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_javax_el_3_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_validator_hibernate_validator_6_0_16_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_2_23_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_18_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_reactivestreams_reactive_streams_1_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_26.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_26.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_1_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_1_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_1_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_1_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_1_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_reactor_netty_2_1_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_1_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_webflux_2_1_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_1_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_1_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_commons_2_1_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_context_2_1_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_gateway_core_2_1_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_2_1_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_gateway_2_1_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_crypto_5_1_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_1_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_1_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_1_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_1_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_1_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_1_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_5_1_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_1_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webflux_5_1_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_synchronoss_cloud_nio_multipart_parser_1_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_synchronoss_cloud_nio_stream_storage_1_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_6_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_23.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/java/com/tlm/webflux/demo/config/RoutingConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/java/com/tlm/webflux/demo/config/WebFluxFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/java/com/tlm/webflux/demo/handler/UserHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/java/com/tlm/webflux/demo/pojo/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order/src/main/java/com/tlm/could/order/enums/OrderStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order/src/main/java/com/tlm/could/order/enums/PayStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order/src/main/java/com/tlm/could/order/exception/OrderException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order/src/main/java/com/tlm/could/order/utils/IdGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/product-common/src/main/java/com/tlm/could/product/common/utils/Result.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/product-server/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/product-server/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/product-server/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/product-server/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/product-server/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/product-server/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/product-server/product-server.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/product.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boss/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../boss/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front/.idea/front.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front/config-overrides.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front/public/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front/src/App.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front/src/App.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front/src/App.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front/src/component/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front/src/image/taobao1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front/src/image/taobao2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front/src/image/taobao3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front/src/image/taobao4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front/src/image/taobao5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front/src/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front/src/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front/src/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front/src/registerServiceWorker.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front/yarn.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/order/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order/src/main/java/com/tlm/could/order/OrderApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/order/src/main/java/com/tlm/could/order/OrderApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order/src/main/java/com/tlm/could/order/bean/Beans.java" beforeDir="false" afterPath="$PROJECT_DIR$/order/src/main/java/com/tlm/could/order/bean/Beans.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order/src/main/java/com/tlm/could/order/controller/OrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/order/src/main/java/com/tlm/could/order/controller/OrderController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order/src/main/java/com/tlm/could/order/entity/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/order/src/main/java/com/tlm/could/order/entity/Order.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order/src/main/java/com/tlm/could/order/feign/ProductClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/product/product-client/src/main/java/com/tlm/could/product/client/ProductClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order/src/main/java/com/tlm/could/order/service/impl/OrderServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/order/src/main/java/com/tlm/could/order/service/impl/OrderServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order/src/main/java/com/tlm/could/order/utils/Result.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/order/src/main/resources/mapper/OrderDetailMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/order/src/main/resources/mapper/OrderDetailMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order/src/main/resources/mapper/OrderMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/order/src/main/resources/mapper/OrderMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/product/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/product/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/product/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/product/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/product/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/product/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/product/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product/src/main/java/com/tlm/could/product/ProductApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/product/product-server/src/main/java/com/tlm/could/product/server/ProductServerApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product/src/main/java/com/tlm/could/product/controller/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/product/product-server/src/main/java/com/tlm/could/product/server/controller/ProductController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product/src/main/java/com/tlm/could/product/entity/Category.java" beforeDir="false" afterPath="$PROJECT_DIR$/product/product-common/src/main/java/com/tlm/could/product/common/entity/Category.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product/src/main/java/com/tlm/could/product/entity/ProductInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/product/product-common/src/main/java/com/tlm/could/product/common/entity/ProductInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product/src/main/java/com/tlm/could/product/mapper/CategoryMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/product/product-server/src/main/java/com/tlm/could/product/server/mapper/CategoryMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product/src/main/java/com/tlm/could/product/mapper/ProductInfoMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/product/product-server/src/main/java/com/tlm/could/product/server/mapper/ProductInfoMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product/src/main/java/com/tlm/could/product/service/CategoryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/product/product-server/src/main/java/com/tlm/could/product/server/service/CategoryService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product/src/main/java/com/tlm/could/product/service/ProductInfoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/product/product-server/src/main/java/com/tlm/could/product/server/service/ProductInfoService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product/src/main/java/com/tlm/could/product/service/impl/CategoryServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/product/product-server/src/main/java/com/tlm/could/product/server/service/impl/CategoryServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product/src/main/java/com/tlm/could/product/service/impl/ProductInfoServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/product/product-server/src/main/java/com/tlm/could/product/server/service/impl/ProductInfoServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product/src/main/java/com/tlm/could/product/utils/Result.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/product/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/product/product-server/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product/src/main/resources/mapper/CategoryMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/product/product-server/src/main/resources/mapper/CategoryMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product/src/main/resources/mapper/ProductInfoMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/product/product-server/src/main/resources/mapper/ProductInfoMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product/src/test/java/com/tlm/could/product/ProductApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/product/product-server/src/test/java/com/tlm/could/product/server/ProductApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product/src/test/java/com/tlm/could/product/mapper/CategoryMapperTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/product/product-server/src/test/java/com/tlm/could/product/server/mapper/CategoryMapperTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product/src/test/java/com/tlm/could/product/mapper/ProductInfoMapperTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/product/product-server/src/test/java/com/tlm/could/product/server/mapper/ProductInfoMapperTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/eureka/target/" />
     <ignored path="$PROJECT_DIR$/product/target/" />
     <ignored path="$PROJECT_DIR$/order/target/" />
+    <ignored path="$PROJECT_DIR$/gateway/target/" />
+    <ignored path="$PROJECT_DIR$/demo/target/" />
+    <ignored path="$PROJECT_DIR$/product-1/target/" />
+    <ignored path="$PROJECT_DIR$/product/product-server/target/" />
+    <ignored path="$PROJECT_DIR$/product/product-common/target/" />
+    <ignored path="$PROJECT_DIR$/product/product-client/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,10 +193,31 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/order/src/main/java/com/tlm/could/order/OrderApplication.java">
+        <entry file="file://$PROJECT_DIR$/order/src/main/java/com/tlm/could/order/service/impl/OrderServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="138">
-              <caret line="9" selection-start-line="9" selection-end-line="9" selection-end-column="19" />
+            <state relative-caret-position="87">
+              <caret line="113" column="18" selection-start-line="113" selection-start-column="18" selection-end-line="113" selection-end-column="18" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/product/product-server/src/main/java/com/tlm/could/product/server/ProductServerApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="72">
+              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/order/src/main/java/com/tlm/could/order/enums/PayStatus.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="368">
+              <caret line="16" column="5" selection-start-line="9" selection-start-column="4" selection-end-line="16" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -99,31 +225,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/order/src/main/java/com/tlm/could/order/controller/OrderController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="27" selection-start-line="27" selection-end-line="27" />
+            <state relative-caret-position="460">
+              <caret line="27" column="50" selection-start-line="27" selection-start-column="44" selection-end-line="27" selection-end-column="55" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#754#776#0" expanded="true" />
-                <element signature="e#754#796#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/order/src/main/java/com/tlm/could/order/entity/Order.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="244">
-              <caret line="27" column="37" lean-forward="true" selection-start-line="9" selection-start-column="4" selection-end-line="27" selection-end-column="37" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/order/src/main/java/com/tlm/could/order/entity/OrderDetail.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="277">
-              <caret line="22" column="37" selection-start-line="22" selection-start-column="37" selection-end-line="22" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -131,8 +237,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/order/src/main/java/com/tlm/could/order/service/OrderService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
-              <caret line="12" column="23" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
+            <state relative-caret-position="230">
+              <caret line="12" column="21" selection-start-line="12" selection-start-column="15" selection-end-line="12" selection-end-column="21" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -141,50 +247,46 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/order/src/main/java/com/tlm/could/order/service/impl/OrderServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="92">
-              <caret line="52" column="12" selection-start-line="52" selection-start-column="12" selection-end-line="52" selection-end-column="12" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1809#1862#1" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/order/src/main/java/com/tlm/could/order/service/OrderDetailService.java">
+        <entry file="file://$PROJECT_DIR$/order/src/main/java/com/tlm/could/order/service/impl/OrderDetailServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="230">
-              <caret line="10" column="41" selection-start-line="10" selection-start-column="41" selection-end-line="10" selection-end-column="41" />
+              <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/order/src/main/java/com/tlm/could/order/utils/Result.java">
+        <entry file="file://$PROJECT_DIR$/order/src/main/java/com/tlm/could/order/OrderApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="322">
-              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+            <state relative-caret-position="207">
+              <caret line="14" column="23" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/order/pom.xml">
+        <entry file="file://$PROJECT_DIR$/order/src/main/resources/mapper/OrderDetailMapper.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="40" column="21" lean-forward="true" selection-start-line="37" selection-start-column="7" selection-end-line="40" selection-end-column="21" />
+            <state relative-caret-position="138">
+              <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/order/src/main/java/com/tlm/could/order/feign/ProductClient.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/order/src/main/resources/mapper/OrderMapper.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="322">
-              <caret line="14" selection-start-line="14" selection-end-line="20" />
+            <state relative-caret-position="92">
+              <caret line="4" column="11" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/order/src/main/java/com/tlm/could/order/utils/IdGenerator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="253">
+              <caret line="13" column="104" selection-start-line="13" selection-start-column="104" selection-end-line="13" selection-end-column="104" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -199,6 +301,7 @@
       <list>
         <option value="Interface" />
         <option value="JUnit4 Test Class" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -206,6 +309,13 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>BigDecimal</find>
+      <find>tomcat</find>
+      <find>subscript</find>
+      <find>RequestPredicate</find>
+      <find>subscribe</find>
+      <find>receiver</find>
+      <find>ServerResponse</find>
+      <find>TemporalUnit</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -214,47 +324,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/eureka/src/main/java/com/tlm/could/eureka/EurekaApplication.java" />
-        <option value="$PROJECT_DIR$/eureka/src/main/java/com/tlm/cloud/eureka/EurekaApplication.java" />
-        <option value="$PROJECT_DIR$/eureka/pom.xml" />
-        <option value="$PROJECT_DIR$/eureka/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/product/src/main/java/com/tlm/could/product/entity/ProductInfo.java" />
-        <option value="$PROJECT_DIR$/product/src/main/java/com/tlm/could/product/entity/Category.java" />
-        <option value="$PROJECT_DIR$/product/src/main/resources/mapper/CategoryMapper.xml" />
-        <option value="$PROJECT_DIR$/product/src/test/java/com/tlm/could/product/mapper/CategoryMapperTest.java" />
-        <option value="$PROJECT_DIR$/product/src/main/java/com/tlm/could/product/ProductApplication.java" />
-        <option value="$PROJECT_DIR$/product/pom.xml" />
-        <option value="$PROJECT_DIR$/product/src/main/java/com/tlm/could/product/mapper/CategoryMapper.java" />
-        <option value="$PROJECT_DIR$/product/src/main/java/com/tlm/could/product/service/CategoryService.java" />
-        <option value="$PROJECT_DIR$/product/src/main/java/com/tlm/could/product/service/impl/CategoryServiceImpl.java" />
-        <option value="$PROJECT_DIR$/product/src/main/java/com/tlm/could/product/utils/Result.java" />
-        <option value="$PROJECT_DIR$/order/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/product/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/order/src/main/java/com/tlm/could/order/entity/OrderDetail.java" />
-        <option value="$PROJECT_DIR$/order/src/main/java/com/tlm/could/order/entity/Order.java" />
-        <option value="$PROJECT_DIR$/order/src/main/java/com/tlm/could/order/form/OrderDetailForm.java" />
-        <option value="$PROJECT_DIR$/order/src/main/java/com/tlm/could/order/service/OrderService.java" />
-        <option value="$PROJECT_DIR$/order/src/main/resources/mapper/OrderMapper.xml" />
-        <option value="$PROJECT_DIR$/order/src/main/resources/mapper/OrderDetailMapper.xml" />
-        <option value="$PROJECT_DIR$/order/src/main/java/com/tlm/could/order/service/OrderDetailService.java" />
-        <option value="$PROJECT_DIR$/order/src/main/java/com/tlm/could/order/mapper/OrderDetailMapper.java" />
-        <option value="$PROJECT_DIR$/order/src/main/java/com/tlm/could/order/mapper/OrderMapper.java" />
-        <option value="$PROJECT_DIR$/order/src/main/java/com/tlm/could/order/service/impl/OrderDetailServiceImpl.java" />
-        <option value="$PROJECT_DIR$/order/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/order/src/main/java/com/tlm/could/order/form/OrderForm.java" />
-        <option value="$PROJECT_DIR$/order/src/main/java/com/tlm/could/order/controller/OrderController.java" />
         <option value="$PROJECT_DIR$/product/src/main/java/com/tlm/could/product/service/ProductInfoService.java" />
         <option value="$PROJECT_DIR$/product/src/main/java/com/tlm/could/product/service/impl/ProductInfoServiceImpl.java" />
         <option value="$PROJECT_DIR$/product/src/main/java/com/tlm/could/product/mapper/ProductInfoMapper.java" />
         <option value="$PROJECT_DIR$/product/src/main/resources/mapper/ProductInfoMapper.xml" />
         <option value="$PROJECT_DIR$/product/src/test/java/com/tlm/could/product/mapper/ProductInfoMapperTest.java" />
         <option value="$PROJECT_DIR$/product/src/main/java/com/tlm/could/product/controller/ProductController.java" />
-        <option value="$PROJECT_DIR$/order/src/main/java/com/tlm/could/order/bean/Beans.java" />
-        <option value="$PROJECT_DIR$/order/pom.xml" />
-        <option value="$PROJECT_DIR$/order/src/main/java/com/tlm/could/order/OrderApplication.java" />
-        <option value="$PROJECT_DIR$/order/src/main/java/com/tlm/could/order/service/impl/OrderServiceImpl.java" />
         <option value="$PROJECT_DIR$/order/src/main/java/com/tlm/could/order/feign/ProductClient.java" />
         <option value="$PROJECT_DIR$/order/src/main/java/com/tlm/could/order/utils/Result.java" />
+        <option value="$PROJECT_DIR$/gateway/pom.xml" />
+        <option value="$PROJECT_DIR$/gateway/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/gateway/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/demo/src/main/java/com/tlm/webflux/demo/pojo/User.java" />
+        <option value="$PROJECT_DIR$/demo/src/main/java/com/tlm/webflux/demo/config/RoutingConfiguration.java" />
+        <option value="$PROJECT_DIR$/demo/src/main/java/com/tlm/webflux/demo/handler/UserHandler.java" />
+        <option value="$PROJECT_DIR$/demo/src/main/java/com/tlm/webflux/demo/config/WebFluxFilter.java" />
+        <option value="$PROJECT_DIR$/demo/pom.xml" />
+        <option value="$PROJECT_DIR$/product/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/product/src/main/java/com/tlm/could/product/ProductApplication.java" />
+        <option value="$PROJECT_DIR$/product-1/pom.xml" />
+        <option value="$PROJECT_DIR$/product/product-server/src/main/java/com/tlm/could/product/ProductServerApplication.java" />
+        <option value="$PROJECT_DIR$/product/product-server/src/main/java/com/tlm/could/product/server/ProductServerApplication.java" />
+        <option value="$PROJECT_DIR$/product/product-common/src/main/java/com/tlm/could/product/common/enity/Category.java" />
+        <option value="$PROJECT_DIR$/product/product-server/src/main/java/com/tlm/could/product/server/mapper/ProductInfoMapper.java" />
+        <option value="$PROJECT_DIR$/product/product-server/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/product/product-server/src/main/resources/mapper/CategoryMapper.xml" />
+        <option value="$PROJECT_DIR$/product/product-server/src/main/resources/mapper/ProductInfoMapper.xml" />
+        <option value="$PROJECT_DIR$/product/product-server/src/main/java/com/tlm/could/product/server/mapper/CategoryMapper.java" />
+        <option value="$PROJECT_DIR$/product/product-server/src/main/java/com/tlm/could/product/server/utils/Result.java" />
+        <option value="$PROJECT_DIR$/product/product-server/src/main/java/com/tlm/could/product/server/service/ProductInfoService.java" />
+        <option value="$PROJECT_DIR$/product/product-server/src/main/java/com/tlm/could/product/server/service/CategoryService.java" />
+        <option value="$PROJECT_DIR$/product/product-server/src/main/java/com/tlm/could/product/server/service/impl/ProductInfoServiceImpl.java" />
+        <option value="$PROJECT_DIR$/product/product-server/src/main/java/com/tlm/could/product/server/service/impl/CategoryServiceImpl.java" />
+        <option value="$PROJECT_DIR$/product/product-server/src/main/java/com/tlm/could/product/server/controller/ProductController.java" />
+        <option value="$PROJECT_DIR$/product/product-server/pom.xml" />
+        <option value="$PROJECT_DIR$/product/product-common/pom.xml" />
+        <option value="$PROJECT_DIR$/product/pom.xml" />
+        <option value="$PROJECT_DIR$/product/product-client/pom.xml" />
+        <option value="$PROJECT_DIR$/order/pom.xml" />
+        <option value="$PROJECT_DIR$/product/product-common/src/main/java/com/tlm/could/product/common/utils/Result.java" />
+        <option value="$PROJECT_DIR$/order/src/main/java/com/tlm/could/order/bean/Beans.java" />
+        <option value="$PROJECT_DIR$/product/product-client/src/main/java/com/tlm/could/product/client/ProductClient.java" />
+        <option value="$PROJECT_DIR$/order/src/main/java/com/tlm/could/order/OrderApplication.java" />
+        <option value="$PROJECT_DIR$/order/src/main/java/com/tlm/could/order/exception/OrderException.java" />
+        <option value="$PROJECT_DIR$/order/src/main/java/com/tlm/could/order/enums/PayStatus.java" />
+        <option value="$PROJECT_DIR$/order/src/main/java/com/tlm/could/order/entity/Order.java" />
+        <option value="$PROJECT_DIR$/order/src/main/java/com/tlm/could/order/enums/OrderStatus.java" />
+        <option value="$PROJECT_DIR$/order/src/main/java/com/tlm/could/order/controller/OrderController.java" />
+        <option value="$PROJECT_DIR$/order/src/main/resources/mapper/OrderMapper.xml" />
+        <option value="$PROJECT_DIR$/order/src/main/java/com/tlm/could/order/utils/IdGenerator.java" />
+        <option value="$PROJECT_DIR$/order/src/main/resources/mapper/OrderDetailMapper.xml" />
+        <option value="$PROJECT_DIR$/order/src/main/java/com/tlm/could/order/service/impl/OrderServiceImpl.java" />
       </list>
     </option>
   </component>
@@ -271,11 +391,11 @@
       <expand>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="order" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="product-client" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="order" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="product-client" type="9519ce18:MavenProjectsStructure$ProjectNode" />
           <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
         </path>
       </expand>
@@ -293,6 +413,10 @@
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
+      <flattenPackages ProjectPane="false" />
+      <showMembers ProjectPane="true" />
+      <hideEmptyPackages ProjectPane="false" />
+      <autoscrollFromSource ProjectPane="true" />
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
@@ -338,6 +462,39 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-could-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-could-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="order" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="tlm" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-could-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-could-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="order" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="tlm" type="462c0819:PsiDirectoryNode" />
+              <item name="could" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-could-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-could-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="order" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="tlm" type="462c0819:PsiDirectoryNode" />
+              <item name="could" type="462c0819:PsiDirectoryNode" />
               <item name="order" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -347,6 +504,9 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="tlm" type="462c0819:PsiDirectoryNode" />
+              <item name="could" type="462c0819:PsiDirectoryNode" />
               <item name="order" type="462c0819:PsiDirectoryNode" />
               <item name="controller" type="462c0819:PsiDirectoryNode" />
             </path>
@@ -357,36 +517,9 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="order" type="462c0819:PsiDirectoryNode" />
-              <item name="entity" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-could-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-could-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="order" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="order" type="462c0819:PsiDirectoryNode" />
-              <item name="feign" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-could-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-could-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="order" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="order" type="462c0819:PsiDirectoryNode" />
-              <item name="mapper" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-could-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-could-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="order" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="tlm" type="462c0819:PsiDirectoryNode" />
+              <item name="could" type="462c0819:PsiDirectoryNode" />
               <item name="order" type="462c0819:PsiDirectoryNode" />
               <item name="service" type="462c0819:PsiDirectoryNode" />
             </path>
@@ -397,6 +530,9 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="tlm" type="462c0819:PsiDirectoryNode" />
+              <item name="could" type="462c0819:PsiDirectoryNode" />
               <item name="order" type="462c0819:PsiDirectoryNode" />
               <item name="service" type="462c0819:PsiDirectoryNode" />
               <item name="impl" type="462c0819:PsiDirectoryNode" />
@@ -408,6 +544,38 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="tlm" type="462c0819:PsiDirectoryNode" />
+              <item name="could" type="462c0819:PsiDirectoryNode" />
+              <item name="order" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+              <item name="OrderServiceImpl" type="1a9f42e2:ClassTreeNode" />
+            </path>
+            <path>
+              <item name="spring-could-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-could-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="order" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="tlm" type="462c0819:PsiDirectoryNode" />
+              <item name="could" type="462c0819:PsiDirectoryNode" />
+              <item name="order" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="OrderService" type="1a9f42e2:ClassTreeNode" />
+            </path>
+            <path>
+              <item name="spring-could-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-could-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="order" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="tlm" type="462c0819:PsiDirectoryNode" />
+              <item name="could" type="462c0819:PsiDirectoryNode" />
               <item name="order" type="462c0819:PsiDirectoryNode" />
               <item name="utils" type="462c0819:PsiDirectoryNode" />
             </path>
@@ -422,18 +590,35 @@
             <path>
               <item name="spring-could-demo" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-could-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="order" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="mapper" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-could-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-could-demo" type="462c0819:PsiDirectoryNode" />
               <item name="product" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring-could-demo" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-could-demo" type="462c0819:PsiDirectoryNode" />
               <item name="product" type="462c0819:PsiDirectoryNode" />
+              <item name="product-client" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-could-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-could-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="product" type="462c0819:PsiDirectoryNode" />
+              <item name="product-client" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring-could-demo" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-could-demo" type="462c0819:PsiDirectoryNode" />
               <item name="product" type="462c0819:PsiDirectoryNode" />
+              <item name="product-client" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
@@ -441,6 +626,121 @@
               <item name="spring-could-demo" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-could-demo" type="462c0819:PsiDirectoryNode" />
               <item name="product" type="462c0819:PsiDirectoryNode" />
+              <item name="product-client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-could-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-could-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="product" type="462c0819:PsiDirectoryNode" />
+              <item name="product-client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-could-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-could-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="product" type="462c0819:PsiDirectoryNode" />
+              <item name="product-client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="tlm" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-could-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-could-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="product" type="462c0819:PsiDirectoryNode" />
+              <item name="product-client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="tlm" type="462c0819:PsiDirectoryNode" />
+              <item name="could" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-could-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-could-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="product" type="462c0819:PsiDirectoryNode" />
+              <item name="product-client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="tlm" type="462c0819:PsiDirectoryNode" />
+              <item name="could" type="462c0819:PsiDirectoryNode" />
+              <item name="product" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-could-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-could-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="product" type="462c0819:PsiDirectoryNode" />
+              <item name="product-client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="tlm" type="462c0819:PsiDirectoryNode" />
+              <item name="could" type="462c0819:PsiDirectoryNode" />
+              <item name="product" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-could-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-could-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="product" type="462c0819:PsiDirectoryNode" />
+              <item name="product-client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="tlm" type="462c0819:PsiDirectoryNode" />
+              <item name="could" type="462c0819:PsiDirectoryNode" />
+              <item name="product" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+              <item name="ProductClient" type="1a9f42e2:ClassTreeNode" />
+            </path>
+            <path>
+              <item name="spring-could-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-could-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="product" type="462c0819:PsiDirectoryNode" />
+              <item name="product-client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-could-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-could-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="product" type="462c0819:PsiDirectoryNode" />
+              <item name="product-common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-could-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-could-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="product" type="462c0819:PsiDirectoryNode" />
+              <item name="product-common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-could-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-could-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="product" type="462c0819:PsiDirectoryNode" />
+              <item name="product-common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-could-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-could-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="product" type="462c0819:PsiDirectoryNode" />
+              <item name="product-common" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -449,41 +749,435 @@
               <item name="spring-could-demo" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-could-demo" type="462c0819:PsiDirectoryNode" />
               <item name="product" type="462c0819:PsiDirectoryNode" />
+              <item name="product-common" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-could-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-could-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="product" type="462c0819:PsiDirectoryNode" />
+              <item name="product-common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="tlm" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-could-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-could-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="product" type="462c0819:PsiDirectoryNode" />
+              <item name="product-common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="tlm" type="462c0819:PsiDirectoryNode" />
+              <item name="could" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-could-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-could-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="product" type="462c0819:PsiDirectoryNode" />
+              <item name="product-common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="tlm" type="462c0819:PsiDirectoryNode" />
+              <item name="could" type="462c0819:PsiDirectoryNode" />
               <item name="product" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring-could-demo" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-could-demo" type="462c0819:PsiDirectoryNode" />
               <item name="product" type="462c0819:PsiDirectoryNode" />
+              <item name="product-common" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="tlm" type="462c0819:PsiDirectoryNode" />
+              <item name="could" type="462c0819:PsiDirectoryNode" />
               <item name="product" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring-could-demo" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-could-demo" type="462c0819:PsiDirectoryNode" />
               <item name="product" type="462c0819:PsiDirectoryNode" />
+              <item name="product-common" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="tlm" type="462c0819:PsiDirectoryNode" />
+              <item name="could" type="462c0819:PsiDirectoryNode" />
               <item name="product" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="entity" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring-could-demo" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-could-demo" type="462c0819:PsiDirectoryNode" />
               <item name="product" type="462c0819:PsiDirectoryNode" />
+              <item name="product-common" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="tlm" type="462c0819:PsiDirectoryNode" />
+              <item name="could" type="462c0819:PsiDirectoryNode" />
               <item name="product" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="impl" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="entity" type="462c0819:PsiDirectoryNode" />
+              <item name="ProductInfo" type="1a9f42e2:ClassTreeNode" />
+            </path>
+            <path>
+              <item name="spring-could-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-could-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="product" type="462c0819:PsiDirectoryNode" />
+              <item name="product-common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="tlm" type="462c0819:PsiDirectoryNode" />
+              <item name="could" type="462c0819:PsiDirectoryNode" />
+              <item name="product" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-could-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-could-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="product" type="462c0819:PsiDirectoryNode" />
+              <item name="product-common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="tlm" type="462c0819:PsiDirectoryNode" />
+              <item name="could" type="462c0819:PsiDirectoryNode" />
+              <item name="product" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
+              <item name="Result" type="1a9f42e2:ClassTreeNode" />
+            </path>
+            <path>
+              <item name="spring-could-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-could-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="product" type="462c0819:PsiDirectoryNode" />
+              <item name="product-server" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-could-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-could-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="product" type="462c0819:PsiDirectoryNode" />
+              <item name="product-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-could-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-could-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="product" type="462c0819:PsiDirectoryNode" />
+              <item name="product-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-could-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-could-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="product" type="462c0819:PsiDirectoryNode" />
+              <item name="product-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-could-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-could-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="product" type="462c0819:PsiDirectoryNode" />
+              <item name="product-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-could-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-could-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="product" type="462c0819:PsiDirectoryNode" />
+              <item name="product-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="tlm" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-could-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-could-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="product" type="462c0819:PsiDirectoryNode" />
+              <item name="product-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="tlm" type="462c0819:PsiDirectoryNode" />
+              <item name="could" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-could-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-could-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="product" type="462c0819:PsiDirectoryNode" />
+              <item name="product-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="tlm" type="462c0819:PsiDirectoryNode" />
+              <item name="could" type="462c0819:PsiDirectoryNode" />
+              <item name="product" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-could-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-could-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="product" type="462c0819:PsiDirectoryNode" />
+              <item name="product-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="tlm" type="462c0819:PsiDirectoryNode" />
+              <item name="could" type="462c0819:PsiDirectoryNode" />
+              <item name="product" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-could-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-could-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="product" type="462c0819:PsiDirectoryNode" />
+              <item name="product-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="tlm" type="462c0819:PsiDirectoryNode" />
+              <item name="could" type="462c0819:PsiDirectoryNode" />
+              <item name="product" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="ProductServerApplication" type="1a9f42e2:ClassTreeNode" />
+            </path>
+            <path>
+              <item name="spring-could-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="spring-could-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="spring-could-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-could-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-could-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="math" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-could-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="math" type="462c0819:PsiDirectoryNode" />
+              <item name="BigDecimal" type="1a9f42e2:ClassTreeNode" />
+            </path>
+            <path>
+              <item name="spring-could-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: com.google.guava:guava:27.0.1-jre" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="spring-could-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: com.google.guava:guava:27.0.1-jre" type="70bed36:NamedLibraryElementNode" />
+              <item name="guava-27.0.1-jre.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-could-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: com.google.guava:guava:27.0.1-jre" type="70bed36:NamedLibraryElementNode" />
+              <item name="guava-27.0.1-jre.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-could-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: com.google.guava:guava:27.0.1-jre" type="70bed36:NamedLibraryElementNode" />
+              <item name="guava-27.0.1-jre.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="google" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-could-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: com.google.guava:guava:27.0.1-jre" type="70bed36:NamedLibraryElementNode" />
+              <item name="guava-27.0.1-jre.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="google" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-could-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: com.google.guava:guava:27.0.1-jre" type="70bed36:NamedLibraryElementNode" />
+              <item name="guava-27.0.1-jre.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="google" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="collect" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-could-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: com.google.guava:guava:27.0.1-jre" type="70bed36:NamedLibraryElementNode" />
+              <item name="guava-27.0.1-jre.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="google" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="collect" type="462c0819:PsiDirectoryNode" />
+              <item name="Maps" type="1a9f42e2:ClassTreeNode" />
+            </path>
+            <path>
+              <item name="spring-could-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework.cloud:spring-cloud-openfeign-core:2.0.2.RELEASE" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="spring-could-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework.cloud:spring-cloud-openfeign-core:2.0.2.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-cloud-openfeign-core-2.0.2.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-could-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework.cloud:spring-cloud-openfeign-core:2.0.2.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-cloud-openfeign-core-2.0.2.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-could-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework.cloud:spring-cloud-openfeign-core:2.0.2.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-cloud-openfeign-core-2.0.2.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="springframework" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-could-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework.cloud:spring-cloud-openfeign-core:2.0.2.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-cloud-openfeign-core-2.0.2.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="springframework" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-could-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework.cloud:spring-cloud-openfeign-core:2.0.2.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-cloud-openfeign-core-2.0.2.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="springframework" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="openfeign" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-could-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework.cloud:spring-cloud-openfeign-core:2.0.2.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-cloud-openfeign-core-2.0.2.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="springframework" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="openfeign" type="462c0819:PsiDirectoryNode" />
+              <item name="FeignClient" type="1a9f42e2:ClassTreeNode" />
+            </path>
+            <path>
+              <item name="spring-could-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework:spring-context:5.0.10.RELEASE" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="spring-could-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework:spring-context:5.0.10.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-context-5.0.10.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-could-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework:spring-context:5.0.10.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-context-5.0.10.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-could-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework:spring-context:5.0.10.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-context-5.0.10.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="springframework" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-could-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework:spring-context:5.0.10.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-context-5.0.10.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="springframework" type="462c0819:PsiDirectoryNode" />
+              <item name="context" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-could-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework:spring-context:5.0.10.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-context-5.0.10.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="springframework" type="462c0819:PsiDirectoryNode" />
+              <item name="context" type="462c0819:PsiDirectoryNode" />
+              <item name="annotation" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-could-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework:spring-context:5.0.10.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-context-5.0.10.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="springframework" type="462c0819:PsiDirectoryNode" />
+              <item name="context" type="462c0819:PsiDirectoryNode" />
+              <item name="annotation" type="462c0819:PsiDirectoryNode" />
+              <item name="ComponentScan" type="1a9f42e2:ClassTreeNode" />
             </path>
           </expand>
           <select />
@@ -498,12 +1192,12 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1560076935879" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1560838490966" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/product/pom.xml" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -515,17 +1209,36 @@
     <key name="CreateTestDialog.RecentsKey">
       <recent name="com.tlm.could.product.mapper" />
     </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.tlm.could.order.utils" />
-    </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.tlm.could.product.client" />
+      <recent name="com.tlm.could.product.common" />
+      <recent name="com.tlm.could.product.server" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\myCode\javaCode\mall\spring-could-demo\product\product-server" />
+      <recent name="D:\myCode\javaCode\mall\spring-could-demo\product\server" />
+      <recent name="D:\myCode\javaCode\mall\spring-could-demo\product" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\myCode\javaCode\mall\spring-could-demo\product" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.tlm.could.product.common.utils" />
+      <recent name="com.tlm.could.order.utils" />
     </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.tlm.could.order.form" />
     </key>
   </component>
   <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
     <option name="ruleStates">
       <list>
         <RuleState>
@@ -536,6 +1249,7 @@
         </RuleState>
       </list>
     </option>
+    <option name="contentProportion" value="0.20286885" />
   </component>
   <component name="RunManager" selected="Spring Boot.EurekaApplication1">
     <configuration name="EurekaApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -598,6 +1312,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="DemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="demo" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.tlm.webflux.demo.DemoApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="EurekaApplication1" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="eureka" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.tlm.cloud.eureka.EurekaApplication" />
@@ -633,6 +1354,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="GatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="gateway" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.tlm.could.gateway.GatewayApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="OrderApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="order" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.tlm.could.order.OrderApplication" />
@@ -647,6 +1375,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ProductClientApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="product-client" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.tlm.could.product.client.ProductClientApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProductCommonApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="product-common" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.tlm.could.product.common.ProductCommonApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProductServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="product-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.tlm.could.product.server.ProductServerApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.EurekaApplication" />
       <item itemvalue="JUnit.CategoryMapperTest.getAllList" />
@@ -656,6 +1406,11 @@
       <item itemvalue="Spring Boot.EurekaApplication2" />
       <item itemvalue="Spring Boot.ProductApplication" />
       <item itemvalue="Spring Boot.OrderApplication" />
+      <item itemvalue="Spring Boot.GatewayApplication" />
+      <item itemvalue="Spring Boot.DemoApplication" />
+      <item itemvalue="Spring Boot.ProductServerApplication" />
+      <item itemvalue="Spring Boot.ProductCommonApplication" />
+      <item itemvalue="Spring Boot.ProductClientApplication" />
     </list>
     <recent_temporary>
       <list>
@@ -696,6 +1451,13 @@
       <workItem from="1560047679439" duration="35000" />
       <workItem from="1560047742337" duration="2174000" />
       <workItem from="1560052147410" duration="23212000" />
+      <workItem from="1560216948989" duration="18039000" />
+      <workItem from="1560504214487" duration="625000" />
+      <workItem from="1560567819403" duration="3966000" />
+      <workItem from="1560757724190" duration="4127000" />
+      <workItem from="1560761886600" duration="3760000" />
+      <workItem from="1560821549885" duration="9432000" />
+      <workItem from="1560837821813" duration="592000" />
     </task>
     <servers />
   </component>
@@ -732,609 +1494,497 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42487000" />
+    <option name="totallyTimeSpent" value="83028000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49858356" visible="true" weight="0.35254693" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49530515" visible="true" weight="0.40951744" />
       <window_info id="Structure" order="1" sideWeight="0.50141644" side_tool="true" weight="0.18364611" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
-      <window_info id="Favorites" order="6" sideWeight="0.50141644" side_tool="true" weight="0.18364611" />
+      <window_info id="Favorites" order="6" sideWeight="0.5046948" side_tool="true" weight="0.18766756" />
       <window_info id="Web" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.39660057" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.40651557" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="9" weight="0.4546742" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.4815864" />
-      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="Spring" order="12" />
-      <window_info anchor="bottom" id="Java Enterprise" order="13" />
-      <window_info anchor="bottom" id="Messages" order="14" weight="0.3286119" />
-      <window_info anchor="right" id="Coverage" side_tool="true" />
+      <window_info active="true" anchor="bottom" id="Run Dashboard" order="0" visible="true" weight="0.65439093" />
+      <window_info anchor="bottom" id="Message" order="1" />
+      <window_info anchor="bottom" id="Find" order="2" weight="0.3286119" />
+      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.49798927" weight="0.3654391" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.40651557" />
+      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="7" weight="0.3286119" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="10" weight="0.4546742" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.6586402" />
+      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.5020107" side_tool="true" weight="0.58498585" />
+      <window_info anchor="bottom" id="Spring" order="13" weight="0.3286119" />
+      <window_info anchor="bottom" id="Java Enterprise" order="14" weight="0.3286119" />
+      <window_info anchor="bottom" id="Messages" order="15" weight="0.3286119" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" visible="true" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Theme Preview" order="4" />
-      <window_info anchor="right" id="Maven" order="5" weight="0.3813673" />
+      <window_info anchor="right" id="Maven" order="5" weight="0.27479893" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Database" order="8" weight="0.3297587" />
       <window_info anchor="right" id="Bean Validation" order="9" weight="0.3297587" />
+      <window_info anchor="right" id="Coverage" order="10" side_tool="true" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49858356" visible="true" weight="0.35254693" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49530515" visible="true" weight="0.40951744" />
       <window_info id="Structure" order="1" sideWeight="0.50141644" side_tool="true" weight="0.18364611" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
-      <window_info id="Favorites" order="6" sideWeight="0.50141644" side_tool="true" weight="0.18364611" />
+      <window_info id="Favorites" order="6" sideWeight="0.5046948" side_tool="true" weight="0.18766756" />
       <window_info id="Web" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3654391" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="9" weight="0.4546742" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.4815864" />
-      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="Spring" order="12" />
-      <window_info anchor="bottom" id="Java Enterprise" order="13" />
-      <window_info anchor="bottom" id="Messages" order="14" weight="0.3286119" />
-      <window_info anchor="right" id="Coverage" order="0" side_tool="true" />
-      <window_info anchor="right" id="Commander" order="1" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="4" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="Maven" order="6" weight="0.23458445" />
-      <window_info anchor="right" id="Capture Analysis" order="7" />
-      <window_info anchor="right" id="Palette&#9;" order="8" />
-      <window_info anchor="right" id="Database" order="9" weight="0.3297587" />
-      <window_info anchor="right" id="Bean Validation" order="10" weight="0.3297587" />
+      <window_info anchor="bottom" id="Run Dashboard" order="0" visible="true" weight="0.38243628" />
+      <window_info anchor="bottom" id="Message" order="1" />
+      <window_info anchor="bottom" id="Find" order="2" weight="0.3286119" />
+      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.49798927" weight="0.3654391" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.40651557" />
+      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="7" weight="0.3286119" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="10" weight="0.4546742" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.6586402" />
+      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.5020107" side_tool="true" weight="0.58498585" />
+      <window_info anchor="bottom" id="Spring" order="13" weight="0.3286119" />
+      <window_info anchor="bottom" id="Java Enterprise" order="14" weight="0.3286119" />
+      <window_info anchor="bottom" id="Messages" order="15" weight="0.3286119" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" visible="true" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Theme Preview" order="4" />
+      <window_info anchor="right" id="Maven" order="5" visible="true" weight="0.27479893" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Database" order="8" weight="0.3297587" />
+      <window_info anchor="right" id="Bean Validation" order="9" weight="0.3297587" />
+      <window_info anchor="right" id="Coverage" order="10" side_tool="true" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/order/src/main/java/com/tlm/could/order/service/impl/OrderServiceImpl.java</url>
-          <line>49</line>
+          <line>58</line>
           <properties />
           <option name="timeStamp" value="2" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/order/src/main/java/com/tlm/could/order/controller/OrderController.java</url>
-          <line>27</line>
+          <url>file://$PROJECT_DIR$/order/src/main/java/com/tlm/could/order/service/impl/OrderDetailServiceImpl.java</url>
+          <line>19</line>
           <properties />
-          <option name="timeStamp" value="3" />
+          <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.0.10.RELEASE/spring-context-5.0.10.RELEASE-sources.jar!/org/springframework/validation/ObjectError.java">
+    <entry file="file://$PROJECT_DIR$/product/product-server/product-server.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/product/product-server/src/main/resources/mapper/ProductInfoMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-65">
-          <caret line="35" column="13" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
+        <state relative-caret-position="46">
+          <caret line="2" column="47" selection-start-line="2" selection-start-column="41" selection-end-line="2" selection-end-column="47" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/product/src/main/resources/mapper/CategoryMapper.xml">
+    <entry file="file://$PROJECT_DIR$/product/product-server/src/main/resources/mapper/CategoryMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="7" column="9" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
+        <state relative-caret-position="46">
+          <caret line="2" column="47" selection-start-line="2" selection-start-column="41" selection-end-line="2" selection-end-column="47" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/product/src/main/resources/mapper/ProductInfoMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/product/src/test/java/com/tlm/could/product/mapper/CategoryMapperTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="151">
-          <caret line="14" column="64" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="64" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/product/src/test/java/com/tlm/could/product/mapper/ProductInfoMapperTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="21" column="22" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#505#619#1" expanded="true" />
-            <element signature="e#614#670#0" expanded="true" />
-            <element signature="e#563#583#0" expanded="true" />
-            <element signature="e#584#604#0" expanded="true" />
-            <element signature="e#614#670#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/order/src/main/resources/mapper/OrderDetailMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="3" column="50" selection-start-line="3" selection-start-column="50" selection-end-line="3" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3-sources.jar!/ch/qos/logback/classic/LoggerContext.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="123">
-          <caret line="197" selection-start-line="197" selection-end-line="197" />
-          <folding>
-            <element signature="e#6649#6650#0" expanded="true" />
-            <element signature="e#6655#6656#0" expanded="true" />
-            <element signature="e#9076#9160#0" expanded="true" />
-            <element signature="e#9076#9160#0" expanded="true" />
-            <element signature="e#9149#9150#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3-sources.jar!/ch/qos/logback/classic/spi/EventArgUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="148">
-          <caret line="50" selection-start-line="50" selection-end-line="50" />
-          <folding>
-            <element signature="e#619#701#0" expanded="true" />
-            <element signature="e#619#701#0" expanded="true" />
-            <element signature="e#711#766#1" expanded="true" />
-            <element signature="e#736#765#0" expanded="true" />
-            <element signature="e#765#766#0" expanded="true" />
-            <element signature="e#775#864#0" expanded="true" />
-            <element signature="e#775#864#0" expanded="true" />
-            <element signature="e#884#885#0" expanded="true" />
-            <element signature="e#1665#1666#0" expanded="true" />
-            <element signature="e#1671#1672#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3-sources.jar!/ch/qos/logback/classic/spi/LoggingEvent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="215">
-          <caret line="280" selection-start-line="280" selection-end-line="280" />
-          <folding>
-            <element signature="e#3189#3190#0" expanded="true" />
-            <element signature="e#3217#3233#0" expanded="true" />
-            <element signature="e#3233#3234#0" expanded="true" />
-            <element signature="e#3264#3289#0" expanded="true" />
-            <element signature="e#3289#3290#0" expanded="true" />
-            <element signature="e#3322#3364#0" expanded="true" />
-            <element signature="e#3364#3365#0" expanded="true" />
-            <element signature="e#3392#3393#0" expanded="true" />
-            <element signature="e#3425#3426#0" expanded="true" />
-            <element signature="e#3464#3465#0" expanded="true" />
-            <element signature="e#3475#3581#0" expanded="true" />
-            <element signature="e#3475#3581#0" expanded="true" />
-            <element signature="e#3570#3571#0" expanded="true" />
-            <element signature="e#3919#3920#0" expanded="true" />
-            <element signature="e#4016#4087#1" expanded="true" />
-            <element signature="e#4086#4087#0" expanded="true" />
-            <element signature="e#4096#4235#0" expanded="true" />
-            <element signature="e#4096#4235#0" expanded="true" />
-            <element signature="e#4269#4270#0" expanded="true" />
-            <element signature="e#8405#8537#0" expanded="true" />
-            <element signature="e#8405#8537#0" expanded="true" />
-            <element signature="e#8405#8537#0" expanded="true" />
-            <element signature="e#8405#8537#0" expanded="true" />
-            <element signature="e#8405#8537#0" expanded="true" />
-            <element signature="e#8405#8537#0" expanded="true" />
-            <element signature="e#8566#8567#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3-sources.jar!/ch/qos/logback/classic/Logger.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="146">
-          <caret line="257" selection-start-line="257" selection-end-line="257" />
-          <folding>
-            <element signature="e#4236#4237#0" expanded="true" />
-            <element signature="e#4257#4258#0" expanded="true" />
-            <element signature="e#4263#4264#0" expanded="true" />
-            <element signature="e#8329#8344#1" expanded="true" />
-            <element signature="e#8343#8344#0" expanded="true" />
-            <element signature="e#8353#8533#0" expanded="true" />
-            <element signature="e#8358#8374#1" expanded="true" />
-            <element signature="e#8373#8374#0" expanded="true" />
-            <element signature="e#8384#8385#0" expanded="true" />
-            <element signature="e#8353#8533#0" expanded="true" />
-            <element signature="e#8454#8455#0" expanded="true" />
-            <element signature="e#8468#8523#0" expanded="true" />
-            <element signature="e#8468#8523#0" expanded="true" />
-            <element signature="e#8742#8862#0" expanded="true" />
-            <element signature="e#8742#8862#0" expanded="true" />
-            <element signature="e#8851#8852#0" expanded="true" />
-            <element signature="e#12966#13075#1" expanded="true" />
-            <element signature="e#13074#13075#0" expanded="true" />
-            <element signature="e#13085#13296#0" expanded="true" />
-            <element signature="e#13085#13296#0" expanded="true" />
-            <element signature="e#13136#13215#0" expanded="true" />
-            <element signature="e#13136#13215#0" expanded="true" />
-            <element signature="e#13364#13386#0" expanded="true" />
-            <element signature="e#13364#13386#0" expanded="true" />
-            <element signature="e#13390#13391#0" expanded="true" />
-            <element signature="e#14254#14329#1" expanded="true" />
-            <element signature="e#14328#14329#0" expanded="true" />
-            <element signature="e#14338#14358#0" expanded="true" />
-            <element signature="e#14338#14358#0" expanded="true" />
-            <element signature="e#14358#14359#0" expanded="true" />
-            <element signature="e#14385#14386#0" expanded="true" />
-            <element signature="e#19963#19964#0" expanded="true" />
-            <element signature="e#20030#20031#0" expanded="true" />
-            <element signature="e#20036#20037#0" expanded="true" />
-            <element signature="e#25824#25825#0" expanded="true" />
-            <element signature="e#25854#25855#0" expanded="true" />
-            <element signature="e#25860#25861#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.0.10.RELEASE/spring-web-5.0.10.RELEASE-sources.jar!/org/springframework/web/method/support/InvocableHandlerMethod.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="131">
-          <caret line="217" selection-start-line="217" selection-end-line="217" />
-          <folding>
-            <element signature="e#8215#8267#1" expanded="true" />
-            <element signature="e#8243#8266#0" expanded="true" />
-            <element signature="e#8266#8267#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eureka/src/main/resources/application.yml">
+    <entry file="file://$PROJECT_DIR$/product/product-server/src/main/java/com/tlm/could/product/server/service/CategoryService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="184">
-          <caret line="8" column="35" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="35" />
+          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/product/src/main/resources/application.yml">
+    <entry file="file://$PROJECT_DIR$/product/product-server/src/main/java/com/tlm/could/product/server/service/impl/CategoryServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="13" column="15" lean-forward="true" selection-start-line="13" selection-start-column="15" selection-end-line="13" selection-end-column="15" />
+        <state relative-caret-position="357">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#629#656#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/order/src/main/resources/mapper/OrderMapper.xml">
+    <entry file="file://$PROJECT_DIR$/product/product-server/src/main/java/com/tlm/could/product/server/service/impl/ProductInfoServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        <state relative-caret-position="196">
+          <caret line="34" column="28" selection-start-line="34" selection-start-column="28" selection-end-line="34" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#991#1050#1" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/eureka/src/main/java/com/tlm/cloud/eureka/EurekaApplication.java">
+    <entry file="file://$PROJECT_DIR$/product/product-server/src/main/java/com/tlm/could/product/server/mapper/CategoryMapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        <state relative-caret-position="184">
+          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/product/src/main/java/com/tlm/could/product/mapper/CategoryMapper.java">
+    <entry file="file://$PROJECT_DIR$/product/product-server/src/main/java/com/tlm/could/product/server/mapper/ProductInfoMapper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="207">
-          <caret line="9" column="32" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="32" />
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/product/src/main/java/com/tlm/could/product/mapper/ProductInfoMapper.java">
+    <entry file="file://$PROJECT_DIR$/product/product-server/src/main/java/com/tlm/could/product/server/service/ProductInfoService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="10" column="45" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="45" />
+        <state relative-caret-position="184">
+          <caret line="8" column="30" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/product/src/test/java/com/tlm/could/product/ProductApplicationTests.java">
+    <entry file="file://$PROJECT_DIR$/product/product-common/src/main/java/com/tlm/could/product/common/entity/Category.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="161">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/product/product-server/src/main/java/com/tlm/could/product/server/utils/Result.java" />
+    <entry file="file://$PROJECT_DIR$/product/product-client/src/main/java/com/tlm/could/product/client/ProductClientApplication.java" />
+    <entry file="file://$PROJECT_DIR$/product/product-server/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="20" column="49" selection-start-line="20" selection-start-column="49" selection-end-line="20" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/product/product-common/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="14" column="59" selection-start-line="14" selection-start-column="59" selection-end-line="14" selection-end-column="59" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/product/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="18" column="42" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="42" />
+        <state relative-caret-position="782">
+          <caret line="34" column="43" selection-start-line="34" selection-start-column="43" selection-end-line="34" selection-end-column="43" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-starter-web/2.0.6.RELEASE/spring-boot-starter-web-2.0.6.RELEASE.pom">
+    <entry file="file://$PROJECT_DIR$/product/product-server/src/main/java/com/tlm/could/product/server/controller/ProductController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-207" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/order/.gitignore">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/order/mvnw.cmd">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-netflix-eureka-client/2.0.2.RELEASE/spring-cloud-netflix-eureka-client-2.0.2.RELEASE.jar!/org/springframework/cloud/netflix/eureka/EurekaClientAutoConfiguration.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="116" column="36" selection-start-line="116" selection-start-column="36" selection-end-line="116" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-netflix-eureka-client/2.0.2.RELEASE/spring-cloud-netflix-eureka-client-2.0.2.RELEASE-sources.jar!/org/springframework/cloud/netflix/eureka/EurekaClientAutoConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="129" column="58" selection-start-line="129" selection-start-column="38" selection-end-line="129" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/order/src/main/java/com/tlm/could/order/form/OrderForm.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="277">
-          <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+        <state relative-caret-position="368">
+          <caret line="23" column="17" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/order/src/main/java/com/tlm/could/order/form/OrderDetailForm.java">
+    <entry file="file://$PROJECT_DIR$/product/product.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/product/product-server/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+        <state relative-caret-position="460">
+          <caret line="20" column="45" selection-start-line="20" selection-start-column="45" selection-end-line="20" selection-end-column="45" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/product/src/main/java/com/tlm/could/product/service/ProductInfoService.java">
+    <entry file="file://$PROJECT_DIR$/order/src/main/java/com/tlm/could/order/utils/Result.java" />
+    <entry file="file://$PROJECT_DIR$/product/product-client/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="142">
-          <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="225">
+          <caret line="23" column="38" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="38" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/product/src/main/java/com/tlm/could/product/ProductApplication.java">
+    <entry file="file://$PROJECT_DIR$/order/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="230">
-          <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/product/src/main/java/com/tlm/could/product/service/impl/CategoryServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="18" column="42" selection-start-line="18" selection-start-column="42" selection-end-line="18" selection-end-column="42" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/product/src/main/java/com/tlm/could/product/service/impl/ProductInfoServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="24" column="47" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="47" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.0.10.RELEASE/spring-web-5.0.10.RELEASE-sources.jar!/org/springframework/web/client/RestTemplate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-14302">
-          <caret line="291" column="29" selection-start-line="291" selection-start-column="17" selection-end-line="291" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/product/src/main/java/com/tlm/could/product/service/CategoryService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="7" column="26" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.0.10.RELEASE/spring-web-5.0.10.RELEASE-sources.jar!/org/springframework/http/HttpEntity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="98" column="63" selection-start-line="98" selection-start-column="50" selection-end-line="98" selection-end-column="63" />
-          <folding>
-            <element signature="e#2377#2378#0" expanded="true" />
-            <element signature="e#2400#2401#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.0.10.RELEASE/spring-web-5.0.10.RELEASE-sources.jar!/org/springframework/web/client/RestOperations.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="234" column="61" selection-start-line="234" selection-start-column="61" selection-end-line="234" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/5.0.10.RELEASE/spring-core-5.0.10.RELEASE-sources.jar!/org/springframework/util/MultiValueMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="29" column="17" selection-start-line="29" selection-start-column="17" selection-end-line="29" selection-end-column="17" />
+          <caret line="68" column="42" selection-start-line="68" selection-start-column="35" selection-end-line="68" selection-end-column="42" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/order/src/main/java/com/tlm/could/order/bean/Beans.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="17" column="35" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
+        <state relative-caret-position="253">
+          <caret line="19" column="19" lean-forward="true" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.0.10.RELEASE/spring-context-5.0.10.RELEASE-sources.jar!/org/springframework/context/annotation/ComponentScan.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="66" column="27" selection-start-line="66" selection-start-column="15" selection-end-line="66" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-openfeign-core/2.0.2.RELEASE/spring-cloud-openfeign-core-2.0.2.RELEASE.jar!/org/springframework/cloud/openfeign/FeignClient.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="17" column="18" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka/src/main/java/com/tlm/cloud/eureka/EurekaApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/order/src/main/java/com/tlm/could/order/service/OrderDetailService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="219">
+          <caret line="10" column="41" selection-start-line="10" selection-start-column="41" selection-end-line="10" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/product/product-common/src/main/java/com/tlm/could/product/common/utils/Result.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="13" column="19" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/product/product-client/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/product/product-client/src/main/java/com/tlm/could/product/client/ProductClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="18" column="31" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#439#440#0" expanded="true" />
-            <element signature="e#480#481#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/product/src/main/java/com/tlm/could/product/controller/ProductController.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/com/google/guava/guava/27.0.1-jre/guava-27.0.1-jre.jar!/com/google/common/collect/Maps.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="28" column="54" selection-start-line="28" selection-start-column="4" selection-end-line="28" selection-end-column="54" />
+        <state relative-caret-position="368">
+          <caret line="152" column="37" selection-start-line="152" selection-start-column="37" selection-end-line="152" selection-end-column="37" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#866#939#1" expanded="true" />
+            <element signature="e#6139#6140#0" expanded="true" />
+            <element signature="e#6175#6176#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/order/src/main/resources/application.yml">
+    <entry file="file://$PROJECT_DIR$/order/src/main/java/com/tlm/could/order/form/OrderForm.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="15" column="43" selection-start-line="15" selection-start-column="43" selection-end-line="15" selection-end-column="43" />
+        <state relative-caret-position="149">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/product/product-common/src/main/java/com/tlm/could/product/common/entity/ProductInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="13" column="22" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/software/Java/jdk1.8.0_161/src.zip!/java/math/BigDecimal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4600">
+          <caret line="219" column="13" selection-start-line="219" selection-start-column="13" selection-end-line="219" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/order/src/main/java/com/tlm/could/order/form/OrderDetailForm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="13" column="35" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/order/src/main/java/com/tlm/could/order/support.java" />
+    <entry file="file://$PROJECT_DIR$/order/src/main/java/com/tlm/could/order/entity/Order.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="159">
+          <caret line="21" column="20" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/order/src/main/java/com/tlm/could/order/exception/OrderException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-96">
+          <caret line="9" column="29" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
+          <folding>
+            <element signature="e#245#246#0" expanded="true" />
+            <element signature="e#275#276#0" expanded="true" />
+            <element signature="e#337#338#0" expanded="true" />
+            <element signature="e#374#375#0" expanded="true" />
+            <element signature="e#420#421#0" expanded="true" />
+            <element signature="e#448#449#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/order/src/main/java/com/tlm/could/order/mapper/OrderMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/order/src/main/java/com/tlm/could/order/mapper/OrderDetailMapper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="138">
-          <caret line="7" column="41" selection-start-line="7" selection-start-column="41" selection-end-line="7" selection-end-column="41" />
+          <caret line="7" column="23" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/order/src/main/java/com/tlm/could/order/mapper/OrderMapper.java">
+    <entry file="file://$PROJECT_DIR$/order/src/main/java/com/tlm/could/order/entity/OrderDetail.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/order/src/main/java/com/tlm/could/order/service/impl/OrderDetailServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="274">
-          <caret line="19" column="46" selection-start-line="19" selection-start-column="46" selection-end-line="19" selection-end-column="46" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#581#582#0" expanded="true" />
-            <element signature="e#634#635#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="368">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/order/src/main/java/com/tlm/could/order/service/impl/OrderServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="52" column="12" selection-start-line="52" selection-start-column="12" selection-end-line="52" selection-end-column="12" />
+        <state relative-caret-position="87">
+          <caret line="113" column="18" selection-start-line="113" selection-start-column="18" selection-end-line="113" selection-end-column="18" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1809#1862#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/order/src/main/java/com/tlm/could/order/enums/OrderStatus.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="10" column="12" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/order/src/main/java/com/tlm/could/order/enums/PayStatus.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="16" column="5" selection-start-line="9" selection-start-column="4" selection-end-line="16" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/order/src/main/java/com/tlm/could/order/controller/OrderController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="27" column="50" selection-start-line="27" selection-start-column="44" selection-end-line="27" selection-end-column="55" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/order/src/main/java/com/tlm/could/order/service/OrderService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="12" column="23" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
+        <state relative-caret-position="230">
+          <caret line="12" column="21" selection-start-line="12" selection-start-column="15" selection-end-line="12" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/order/src/main/java/com/tlm/could/order/service/OrderDetailService.java">
+    <entry file="file://$PROJECT_DIR$/order/src/main/java/com/tlm/could/order/service/impl/OrderDetailServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="230">
-          <caret line="10" column="41" selection-start-line="10" selection-start-column="41" selection-end-line="10" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/order/src/main/java/com/tlm/could/order/utils/Result.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/order/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="40" column="21" lean-forward="true" selection-start-line="37" selection-start-column="7" selection-end-line="40" selection-end-column="21" />
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/order/src/main/java/com/tlm/could/order/OrderApplication.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="14" column="23" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/order/src/main/resources/mapper/OrderDetailMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="138">
-          <caret line="9" selection-start-line="9" selection-end-line="9" selection-end-column="19" />
+          <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/order/src/main/java/com/tlm/could/order/controller/OrderController.java">
+    <entry file="file://$PROJECT_DIR$/order/src/main/resources/mapper/OrderMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="27" selection-start-line="27" selection-end-line="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#754#776#0" expanded="true" />
-            <element signature="e#754#796#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="92">
+          <caret line="4" column="11" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/order/src/main/java/com/tlm/could/order/entity/Order.java">
+    <entry file="file://$PROJECT_DIR$/order/src/main/java/com/tlm/could/order/utils/IdGenerator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="244">
-          <caret line="27" column="37" lean-forward="true" selection-start-line="9" selection-start-column="4" selection-end-line="27" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/order/src/main/java/com/tlm/could/order/entity/OrderDetail.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="277">
-          <caret line="22" column="37" selection-start-line="22" selection-start-column="37" selection-end-line="22" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/order/src/main/java/com/tlm/could/order/feign/ProductClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="14" selection-start-line="14" selection-end-line="20" />
+        <state relative-caret-position="253">
+          <caret line="13" column="104" selection-start-line="13" selection-start-column="104" selection-end-line="13" selection-end-column="104" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/product/product-server/src/main/java/com/tlm/could/product/server/ProductServerApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -1390,12 +2040,11 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>eureka</last-edited>
+          <last-edited>Spring|product-server</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
