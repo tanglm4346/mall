@@ -7,4 +7,6 @@ spring:
     config:
       server:
         git:
-          uri:
+          uri: https://github.com/tanglm4346/mall/tree/master/spring-could-demo/config-repo
+          username: tlm434632
+          password: tlm19921021
