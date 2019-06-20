@@ -1,0 +1,17 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "com.tlm.could.product.server.properties.TestProperties",
+      "name": "test.refresh",
+      "type": "com.tlm.could.product.server.properties.TestProperties"
+    }
+  ],
+  "properties": [
+    {
+      "sourceType": "com.tlm.could.product.server.properties.TestProperties",
+      "name": "test.refresh.girl",
+      "type": "java.lang.String"
+    }
+  ]
+}
